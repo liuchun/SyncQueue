@@ -1,4 +1,12 @@
-
+/**
+ * 懒加载执行方法，依赖jQuery
+ *
+ * @version 1.0
+ * @author liuchun on 2017/06/18
+ * @example:
+ *
+ */
+ 
   // 同步队列，添加到该队列的方法都会同步执行，使用new来创建多个同步队列
   function SyncQueue() {
     this.syncQueue = [];
